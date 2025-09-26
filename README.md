@@ -17,7 +17,7 @@ A responsive and modern weather web app built with HTML, CSS, and JavaScript tha
     ├─ style.css
     ├─ script.js
     └─ images/
-      ├─ weather-bg.jpg
+      ├─ Weather-bg.jpg
       
 ## Setup Instructions
 
