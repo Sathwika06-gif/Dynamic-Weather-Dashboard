@@ -1,6 +1,6 @@
 // script.js
 // Replace with your OpenWeatherMap API key:
-const API_KEY = "fb1a2b547d7b356025327d66ee07c0ba"; // <-- REPLACE THIS
+const API_KEY = "YOUR_OPENWEATHERMAP_API_KEY  "; // <-- REPLACE THIS
 
 
 
@@ -237,3 +237,4 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
+
