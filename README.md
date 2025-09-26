@@ -41,22 +41,67 @@ Follow these steps to run the project locally or deploy it online:
 
        const API_KEY = "YOUR_API_KEY_HERE";
 
-4. Run the project locally
+4. Run the project
+    1. Open Directly in Browser (Quick Test)
 
-You can open index.html directly in your browser or use a local server (recommended for testing APIs):
+           This is the simplest way to check your project quickly.
+           Just double-click the index.html file.
+           It will open in your default web browser.
 
-# Using VS Code Live Server extension (recommended)
-# OR using Python (if installed):
-     python -m http.server 8000
-Then visit:
-      
-      http://localhost:8000
+pros- Works for static files, but some API features (like Geolocation) might not work properly without a server.
+
+   2. Run with a Local Development Server (Recommended)
+
+      A local server ensures APIs, geolocation, and fetch requests all work correctly.
+
+      option A: Using Python (built-in, cross-platform)
+
+      If you have Python installed:
+
+           # Navigate to project folder
+              cd weather-dashboard
+
+           # Start a local server (Python 3)
+              python -m http.server 8000
+
+
+      Then open your browser and go to:
+
+          http://localhost:8000
+
+      Option B: Using Node.js http-server
+
+      If you have Node.js installed, you can quickly serve the project with http-server:
+
+       # Install http-server globally (one-time setup)
+          npm install -g http-server
+
+      # Run the server
+          http-server
+      Then visit the link it shows (usually http://localhost:8080).
+
+  3. Using VS Code Live Server Extension (Best Experience)
+
+       If you’re working in Visual Studio Code, this is the easiest way:
+
+       1.Open the project folder in VS Code.
+
+       2.Install the extension "Live Server" (by Ritwick Dey).
+
+       3.Right-click index.html → "Open with Live Server".
+
+       4.Your default browser will open the site (e.g., http://127.0.0.1:5500).
+
+  Pros:
+
+     Auto-refreshes on file save
+     Works perfectly with API requests and geolocation
+     Easiest option for development
 
 
 ## APIs Used
 
 OpenWeatherMap API – for weather and forecast data
-
 Geolocation API – to detect user’s current location automatically
 
 
