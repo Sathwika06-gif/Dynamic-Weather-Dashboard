@@ -48,7 +48,7 @@ Follow these steps to run the project locally or deploy it online:
            2.Just double-click the index.html file.
            3.It will open in your default web browser.
 
-    Pros- Works for static files, but some API features (like Geolocation) might not work properly without a server.
+      Pros- Works for static files, but some API features (like Geolocation) might not work properly without a server.
 
    2. Run with a Local Development Server (Recommended)
 
@@ -92,7 +92,7 @@ Follow these steps to run the project locally or deploy it online:
      
        4.Your default browser will open the site (e.g., http://127.0.0.1:5500).
 
-   Pros:
+    Pros:
 
      Auto-refreshes on file save
      Works perfectly with API requests and geolocation
