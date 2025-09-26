@@ -48,7 +48,7 @@ Follow these steps to run the project locally or deploy it online:
            Just double-click the index.html file.
            It will open in your default web browser.
 
-pros- Works for static files, but some API features (like Geolocation) might not work properly without a server.
+    Pros- Works for static files, but some API features (like Geolocation) might not work properly without a server.
 
    2. Run with a Local Development Server (Recommended)
 
@@ -73,10 +73,10 @@ pros- Works for static files, but some API features (like Geolocation) might not
 
       If you have Node.js installed, you can quickly serve the project with http-server:
 
-       # Install http-server globally (one-time setup)
+          # Install http-server globally (one-time setup)
           npm install -g http-server
 
-      # Run the server
+          # Run the server
           http-server
       Then visit the link it shows (usually http://localhost:8080).
 
@@ -85,14 +85,11 @@ pros- Works for static files, but some API features (like Geolocation) might not
        If you’re working in Visual Studio Code, this is the easiest way:
 
        1.Open the project folder in VS Code.
-
        2.Install the extension "Live Server" (by Ritwick Dey).
-
        3.Right-click index.html → "Open with Live Server".
-
        4.Your default browser will open the site (e.g., http://127.0.0.1:5500).
 
-  Pros:
+   Pros:
 
      Auto-refreshes on file save
      Works perfectly with API requests and geolocation
