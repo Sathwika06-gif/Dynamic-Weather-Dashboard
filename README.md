@@ -26,8 +26,7 @@ Follow these steps to run the project locally or deploy it online:
    
        git clone https://github.com/Sathwika06-gif/Dynamic-Weather-Dashboard.git
    
-       cd weather-dashboard
-
+       cd Dynamic-Weather-Dashboard
 2. Get an OpenWeatherMap API Key
 
    Go to ---
