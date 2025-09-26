@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dynamic Weather Dashboard</title>
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="app-header">
+    <h1>Weather Dashboard</h1>
+    <button id="theme-toggle" aria-label="Toggle theme">🌗</button>
+  </header>
+
+  <main class="container">
+    <form id="search-form" class="search">
+      <input id="search-input" type="search" placeholder="Search city (e.g. Tokyo)" aria-label="Search city" />
+      <button type="submit">Search</button>
+      <button type="button" id="geo-btn" title="Use my location">📍 Use my location</button>
+    </form>
+
+    <div id="message" class="message" role="status" aria-live="polite"></div>
+
+    <section id="current" class="card current-card" aria-live="polite">
+      <!-- Current weather injected here -->
+      <div class="placeholder">Search a city or use your location</div>
+    </section>
+
+    <section id="forecast" class="forecast-grid">
+      <!-- Forecast cards injected here -->
+    </section>
+
+    
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
