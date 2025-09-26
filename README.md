@@ -24,24 +24,24 @@ A responsive and modern weather web app built with HTML, CSS, and JavaScript tha
 Follow these steps to run the project locally or deploy it online:
 1. Clone the repository
    
-       git clone https://github.com/your-username/weather-dashboard.git
+       git clone https://github.com/Sathwika06-gif/Dynamic-Weather-Dashboard.git
    
-   cd weather-dashboard
+       cd weather-dashboard
 
-3. Get an OpenWeatherMap API Key
+2. Get an OpenWeatherMap API Key
 
    Go to ---
 
        https://openweathermap.org/api
-Create a free account and navigate to the API Keys section and copy your API key.
+   Create a free account and navigate to the API Keys section and copy your API key.
 
-4. Add your API key
+3. Add your API key
    
    Open the script.js file and replace the placeholder with your key:
 
        const API_KEY = "YOUR_API_KEY_HERE";
 
-5. Run the project locally
+4. Run the project locally
 
 You can open index.html directly in your browser or use a local server (recommended for testing APIs):
 
@@ -70,8 +70,4 @@ Geolocation API – to detect user’s current location automatically
     Geolocation API – location detection
 
 
-🧭 Unit switch (°C ↔ °F)
 
-🧑‍💻 Add hourly forecast data
-
-📊 Add weather charts and graphs
