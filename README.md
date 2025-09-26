@@ -1,9 +1,9 @@
 
-🌦️ Dynamic Weather Dashboard
+##🌦️ Dynamic Weather Dashboard
 
 A responsive and modern weather web app built with HTML, CSS, and JavaScript that displays real-time weather information using the OpenWeatherMap API and Geolocation API. It features current weather, a 5-day forecast, light/dark mode, and a dynamic background image.
 
-🚀 Features
+## Features
 
 🌍 Search weather by city name
 
