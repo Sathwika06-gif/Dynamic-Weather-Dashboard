@@ -85,8 +85,11 @@ Follow these steps to run the project locally or deploy it online:
        If you’re working in Visual Studio Code, this is the easiest way:
 
        1.Open the project folder in VS Code.
+     
        2.Install the extension "Live Server" (by Ritwick Dey).
+     
        3.Right-click index.html → "Open with Live Server".
+     
        4.Your default browser will open the site (e.g., http://127.0.0.1:5500).
 
    Pros:
@@ -99,6 +102,7 @@ Follow these steps to run the project locally or deploy it online:
 ## APIs Used
 
 OpenWeatherMap API – for weather and forecast data
+
 Geolocation API – to detect user’s current location automatically
 
 
