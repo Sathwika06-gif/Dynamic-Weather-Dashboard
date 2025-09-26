@@ -44,9 +44,9 @@ Follow these steps to run the project locally or deploy it online:
 4. Run the project
     1. Open Directly in Browser (Quick Test)
 
-           This is the simplest way to check your project quickly.
-           Just double-click the index.html file.
-           It will open in your default web browser.
+           1.This is the simplest way to check your project quickly.
+           2.Just double-click the index.html file.
+           3.It will open in your default web browser.
 
     Pros- Works for static files, but some API features (like Geolocation) might not work properly without a server.
 
@@ -56,7 +56,7 @@ Follow these steps to run the project locally or deploy it online:
 
       option A: Using Python (built-in, cross-platform)
 
-      If you have Python installed:
+        If you have Python installed:
 
            # Navigate to project folder
               cd weather-dashboard
@@ -80,7 +80,7 @@ Follow these steps to run the project locally or deploy it online:
           http-server
       Then visit the link it shows (usually http://localhost:8080).
 
-  3. Using VS Code Live Server Extension (Best Experience)
+   3. Using VS Code Live Server Extension (Best Experience)
 
        If you’re working in Visual Studio Code, this is the easiest way:
 
