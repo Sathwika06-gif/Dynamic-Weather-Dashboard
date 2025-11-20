@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="Screenshot (412)" src="https://github.com/user-attachments/assets/c0f4eb84-0f2b-4b52-8ba5-463955c764b2" />
+
 ## Dynamic Weather Dashboard
 
 A responsive and modern weather web app built with HTML, CSS, and JavaScript that displays real-time weather information using the OpenWeatherMap API and Geolocation API. It features current weather, a 5-day forecast, light/dark mode, and a dynamic background image.
@@ -119,5 +119,5 @@ Geolocation API – to detect user’s current location automatically
 ##OUTPUT-
  ## when we enter the location through keyboard-
 <img width="1366" height="768" alt="Screenshot (412)" src="https://github.com/user-attachments/assets/1c1b41bf-1244-4a3d-a229-84e587b5d7e2" />
-## when current location is detected-
+ ## when current location is detected-
 <img width="1366" height="768" alt="Screenshot (413)" src="https://github.com/user-attachments/assets/6cc6a852-8f15-4aff-af48-edc685baef87" />
